@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Josefin+Sans:wght@300&family=Poppins:ital,wght@0,300;0,500;1,200&family=Roboto:wght@300;400;500&family=Source+Sans+Pro&family=Style+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif, monospace; */
+    font-family: 'Fredoka', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,0.7486344879748774) 0%, rgba(121,9,104,0.8410714627647934) 49%, rgba(0,194,255,0.5945728633250176) 100%);
+    position: relative;
+}
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    color: #fff;
+    border-bottom: 2px solid pink;
+    font-family: 'Fredoka', sans-serif;
+     
+
+    
+}
+
+
+
+.container{
+    width: 606px;
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 30px 30px 25px ;
+}
+.container header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: blueviolet;
+}
+.container .content{
+    margin:34px 0px ;
+} 
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area i {
+    font-size: 15px;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px ;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+    color:rgb(25, 0, 255);
+    
+
+}
+.author span:first-child{
+    margin:-4px 4px 0 0;
+    font-family: monospace;
+}
+.container .button{
+    border-top: 1px solid #ccc;
+}
+.button .features{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    width:47px;
+    height: 46px;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;  
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.features ul li:hover{
+    background:blueviolet;
+    color: #fff;
+
+}
+.features button{
+    border: none;
+    outline:none;
+    background: blueviolet;
+    padding: 13px 22px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+button .loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
+.header .fa{
+    background: transparent;
+    color: rgb(243, 59, 243);
+}
+
+
+
+    
